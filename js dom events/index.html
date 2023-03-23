@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="make-pink"> make pink</button>
+    <button onclick="console.log(80)"> click me</button>
+    <button onclick="makeRed()">make red </button>
+    <!-- ekta onclick korle arekta function open hobe -->
+    <h1 id="hip" onclick="openHolder()"> this is the text</h1>
+    <h3 id="next" onclick="holder()">this the 2nd task</h3>
+    <!--  -->
+    <!-- onno arekta text change korte hole -->
+    <h3 id="onoid">ki rlikhbo</h3>
+    <h4 onclick="onno()">kii</h4>
+    
+    <script src="event.js"></script>
+    <script>
+     function openHolder(){
+       const dhoraholo= document.getElementById('hip')
+   dhoraholo.innerHTML='ki r kora';
+
+        }
+        function onno(){
+            const onnidd=document.getElementById('onoid')
+            onnidd.innerText='ja iccha';
+
+        }
+        
+     
+    </script>
+    <script src="holder.js"></script>
+</body>
+</html>
